@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("metier")
 public class MetierImpl  implements IMetier{
 //depend de linterface et nont de la classe
-   //injection via  @Autowired
+    //@Autowired
   private IDAO dao;
   //injection via le constructeur
 
